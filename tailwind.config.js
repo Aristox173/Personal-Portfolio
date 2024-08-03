@@ -10,8 +10,8 @@ export default {
       colors: {
         "bg-1": "#0f0e17",
         "bg-2": "#fffffe",
-        "text-light": "#fffffe",
-        "text-dark": "#0f0e17",
+        light1: "#fffffe",
+        dark1: "#0f0e17",
         "text-secondary": "#a7a9be",
         btn: "#ff8906",
         "btn-text": "#fffffe",

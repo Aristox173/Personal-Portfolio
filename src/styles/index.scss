@@ -7,3 +7,48 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    main {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        height: 100vh;
+        section {
+            scroll-snap-align: start;
+            height: 100vh;
+            @apply flex items-center justify-center overflow-hidden;
+
+            &.hero-page {
+                @apply bg-bg-1;
+            }
+
+            &.about-page {
+                @apply bg-bg-2;
+            }
+
+            &.skill-page {
+                @apply bg-bg-1;
+            }
+
+            &.certification-page {
+                @apply bg-bg-2;
+            }
+
+            &.project-page {
+                @apply bg-bg-1;
+            }
+
+            &.work-page {
+                @apply bg-bg-2;
+            }
+
+            &.contact-page {
+                @apply bg-bg-1;
+            }
+        }
+    }
+
+    h1 {
+        @apply text-9xl font-heading;
+    }
+}

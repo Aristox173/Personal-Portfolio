@@ -8,7 +8,7 @@ import Contact from "./views/pages/Contact";
 
 function App() {
   return (
-    <div>
+    <main>
       <Hero />
       <About />
       <Skills />
@@ -16,7 +16,7 @@ function App() {
       <Projects />
       <WorkExperience />
       <Contact />
-    </div>
+    </main>
   );
 }
 

@@ -1,10 +1,8 @@
 const WorkExperience = () => {
   return (
-    <div className="h-screen bg-bg-2 flex items-center justify-center">
-      <h1 className="2xl:text-9xl text-xl text-text-dark font-heading">
-        Work Experience
-      </h1>
-    </div>
+    <section className="work-page">
+      <h1 className="text-dark1">Work Experience</h1>
+    </section>
   );
 };
 
