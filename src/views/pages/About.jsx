@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section className="about-page">
-      <h1 className="text-dark1">About</h1>
+    <section className="about-page" id="about">
+      <h1 className="text-black">About</h1>
     </section>
   );
 };

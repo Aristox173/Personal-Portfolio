@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <section className="contact-page">
-      <h1 className="text-light1">Contact</h1>
+    <section className="contact-page" id="contact">
+      <h1 className="text-white">Contact</h1>
     </section>
   );
 };
