@@ -10,7 +10,7 @@ import Contact from "./views/pages/Contact";
 
 function App() {
   const [navbarStyles, setNavbarStyles] = useState({
-    backgroundColor: "bg-color2",
+    backgroundColor: "bg-color1",
     shadowColor: "shadow-white",
     iconColor: "text-black",
     hoverColor: "hover:text-white",
@@ -28,7 +28,7 @@ function App() {
           switch (entry.target.id) {
             case "hero":
               setNavbarStyles({
-                backgroundColor: "bg-color2",
+                backgroundColor: "bg-color6",
                 shadowColor: "shadow-white",
                 iconColor: "text-black",
                 hoverColor: "hover:text-white",
@@ -39,12 +39,12 @@ function App() {
                 backgroundColor: "bg-color1",
                 shadowColor: "shadow-black",
                 iconColor: "text-white",
-                hoverColor: "hover:text-color2",
+                hoverColor: "hover:text-color6",
               });
               break;
             case "skills":
               setNavbarStyles({
-                backgroundColor: "bg-color2",
+                backgroundColor: "bg-color6",
                 shadowColor: "shadow-white",
                 iconColor: "text-black",
                 hoverColor: "hover:text-white",
@@ -55,12 +55,12 @@ function App() {
                 backgroundColor: "bg-color1",
                 shadowColor: "shadow-black",
                 iconColor: "text-white",
-                hoverColor: "hover:text-color2",
+                hoverColor: "hover:text-color6",
               });
               break;
             case "projects":
               setNavbarStyles({
-                backgroundColor: "bg-color2",
+                backgroundColor: "bg-color6",
                 shadowColor: "shadow-white",
                 iconColor: "text-black",
                 hoverColor: "hover:text-white",
@@ -71,12 +71,12 @@ function App() {
                 backgroundColor: "bg-color1",
                 shadowColor: "shadow-black",
                 iconColor: "text-white",
-                hoverColor: "hover:text-color2",
+                hoverColor: "hover:text-color6",
               });
               break;
             case "contact":
               setNavbarStyles({
-                backgroundColor: "bg-color2",
+                backgroundColor: "bg-color6",
                 shadowColor: "shadow-white",
                 iconColor: "text-black",
                 hoverColor: "hover:text-white",
@@ -87,7 +87,7 @@ function App() {
                 backgroundColor: "bg-color1",
                 shadowColor: "shadow-black",
                 iconColor: "text-black",
-                hoverColor: "hover:text-color2",
+                hoverColor: "hover:text-color6",
               });
           }
         }

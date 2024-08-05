@@ -35,7 +35,23 @@ body {
             @apply flex items-center justify-center overflow-hidden;
 
             &.hero-page {
-                @apply bg-color1;
+                background-image: linear-gradient(to right top, #f9f871, #f1a060, #b05e64, #57354d, #0f0e17);
+
+                .hero-container {
+                    width: 80%;
+                    height: 80%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .hero-subcontainer {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
             }
 
             &.about-page {
@@ -43,7 +59,7 @@ body {
             }
 
             &.skill-page {
-                @apply bg-color1;
+                background-image: linear-gradient(to right top, #f9f871, #f1a060, #b05e64, #57354d, #0f0e17);
             }
 
             &.certification-page {
@@ -51,7 +67,7 @@ body {
             }
 
             &.project-page {
-                @apply bg-color1;
+                background-image: linear-gradient(to right top, #f9f871, #f1a060, #b05e64, #57354d, #0f0e17);
             }
 
             &.work-page {
@@ -59,7 +75,7 @@ body {
             }
 
             &.contact-page {
-                @apply bg-color1;
+                background-image: linear-gradient(to right top, #f9f871, #f1a060, #b05e64, #57354d, #0f0e17);
             }
         }
     }
